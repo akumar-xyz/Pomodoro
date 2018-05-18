@@ -68,7 +68,7 @@ do
 
 		if $INTERACTIVE; then
 			echo -e "\a"
-			echo "Work over"
+			printf "Work over"
 			read
 		fi
 
@@ -91,7 +91,7 @@ do
 
 		if $INTERACTIVE; then
 			echo -e "\a"
-			echo "Pause over"
+			printf "Pause over"
 			read
 		fi
 	done
